@@ -1,0 +1,230 @@
+/* src/AnswerBoard.css */
+.question {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid darkorange;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.answer-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  min-width: 700px;
+  margin: 0 auto;
+}
+
+.answer-board Button {
+  font-size: 20px;
+  font-weight: bold;
+  color: ghostwhite;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* This aligns items with space between them */
+  align-items: center;
+  padding: 0;
+}
+
+.answer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: black;
+  border-radius: 5px;
+  border: 2px solid paleturquoise;
+  font-size: 25px;
+  height: 50px;
+}
+
+.answer {
+  font-weight: bold;
+  float: left;
+  height: 50px;
+  display: flex;
+  align-items: center
+}
+
+.points {
+  float: right;
+  outline: 10px solid brown;
+  background: brown;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 25px;
+}
+
+.answer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid darkorange;
+  grid-row-start: 2;
+  grid-column-start: 2;
+
+  grid-row-end: 3;
+  grid-column-end: 5;
+  background-image: url("orange-background.jpeg");
+}
+
+.header {
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 6;
+}
+
+.team1 {
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 2;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.team1 Button, .team2 Button {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 50px;
+  line-height: 50px;
+  margin: 10px;
+  color: white;
+}
+
+.team-score {
+  font-size: 90px;
+  display: block;
+}
+
+.team2 {
+  grid-row-start: 2;
+  grid-column-start: 5;
+
+  grid-row-end: 3;
+  grid-column-end: 5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-team {
+  text-shadow:
+   0 0 1px #ffcf00,
+   0 0 5px #ffcf00,
+   0 0 21px #ffcf00,
+   0 0 42px #ffcf00,
+   0 0 82px #ffcf00,
+   0 0 92px #ffcf00,
+   0 0 102px #ffcf00,
+   0 0 151px #ffcf00;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 0.5fr 2fr 0.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  gap: 0px;
+  height: 100vh;
+  background-image: linear-gradient(darkblue, slateblue);
+}
+
+.logo {
+  display: block;
+  margin: 25px auto;
+  width: 300px;
+  height: auto;
+}
+
+.round {
+  display: flex;
+  padding-left: 50px;
+  position: absolute;
+  color: white;
+  text-shadow: 3px 5px 5px black;
+  font-size: 20px;
+}
+
+.multiplier {
+  background: brown;
+  padding: 10px;
+  margin: auto 20px;
+  text-shadow: none;
+}
+
+.footer {
+   grid-row-start: 3;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 6;
+
+   align-items: center;
+   display: flex;
+   justify-content: flex-end;
+
+   font-size: 50px;
+}
+
+.next {
+ font-size: 50px;
+ margin: 10px;
+ width: 70px;
+ color: gold;
+ background-color: rgba(15, 75, 153, 0.5);
+ border-radius: 10px;
+}
+
+.x-button {
+ font-size: 50px;
+ font-weight: bold;
+ color: red;
+ background-color: maroon;
+ width: 70px;
+ border-radius: 10px;
+}
+
+.finish-button {
+  font-size: 40px;
+  height: 65px;
+  margin: 10px;
+  background-color: gold;
+  border-radius: 10px;
+  width: 70px;
+}
+
+.strike {
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.strike h1 {
+  color: red;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 0 20px;
+  display: inline;
+  margin-left: 0;
+}
