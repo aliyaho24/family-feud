@@ -1,3 +1,10 @@
+
+<img width="1645" alt="Screen Shot 2024-04-14 at 7 13 04 PM" src="https://github.com/aliyaho24/family-feud/assets/33499496/43f9a2be-884f-4b78-a0f3-b8cc8f7f044a">
+<img width="1642" alt="Screen Shot 2024-04-14 at 7 13 45 PM" src="https://github.com/aliyaho24/family-feud/assets/33499496/36e7e5d4-ab1e-455d-a675-15843f6d071b">
+<img width="1640" alt="Screen Shot 2024-04-14 at 7 14 20 PM" src="https://github.com/aliyaho24/family-feud/assets/33499496/653aeab5-5efa-446b-8c5e-2caeacd74bbf">
+<img width="1638" alt="Screen Shot 2024-04-14 at 7 14 34 PM" src="https://github.com/aliyaho24/family-feud/assets/33499496/cd3c47dd-fa3d-4e61-8782-5737319b103a">
+<img width="1669" alt="Screen Shot 2024-04-14 at 7 15 23 PM" src="https://github.com/aliyaho24/family-feud/assets/33499496/f3462938-23df-4860-b331-5625609b2c0a">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
